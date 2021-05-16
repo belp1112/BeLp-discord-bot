@@ -1,4 +1,4 @@
 discord.py
 requests
-trollius
-_overlapped
+
+
