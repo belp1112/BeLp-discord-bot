@@ -7,9 +7,11 @@ from unicodedata import name
 from riot import return_collect_champion_name, retrieve_championdata, return_skinlist, shape_to_discordmsg
 
 TOKEN = getenv('BeLChinBotTOKEN')
-
 client = discord.Client()
 
+@client.event
+async def on_ready():
+    print('ログインしました')
 
 @client.event
 async def on_message(message):
