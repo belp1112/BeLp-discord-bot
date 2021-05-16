@@ -1,1 +1,1 @@
-BeLpchinbot: python BeLpchinbot.py
+Discordbot: python BeLpchinbot.py
