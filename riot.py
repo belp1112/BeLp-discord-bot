@@ -1,4 +1,3 @@
-from asyncio.windows_events import ERROR_CONNECTION_REFUSED
 from requests import get
 
 
