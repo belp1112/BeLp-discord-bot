@@ -6,7 +6,7 @@ from requests import get
 from unicodedata import name
 from riot import return_collect_champion_name, retrieve_championdata, return_skinlist, shape_to_discordmsg
 
-TOKEN = 'NTg3MjQ4MzYzNDU2NTYxMTUy.XPzzqA.t-7rB91H6ZqbzudLlMuCeatIWiU'
+TOKEN = getenv('BeLChinBotTOKEN')
 
 client = discord.Client()
 
