@@ -11,7 +11,7 @@ client = discord.Client()
 
 @client.event
 async def on_ready():
-    print('ログインしました')
+    print('Bot is online')
 
 @client.event
 async def on_message(message):
